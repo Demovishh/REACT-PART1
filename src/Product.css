@@ -1,0 +1,8 @@
+.Product{
+    border: 5px solid whitesmoke;
+    border-radius: 20px;  
+    margin-bottom: 15px;
+    padding: 0 15px;
+    background-color: rgb(35, 230, 236);
+    color: black;
+}
