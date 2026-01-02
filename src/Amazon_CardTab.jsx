@@ -1,8 +1,12 @@
 import Amazon_Card from "./Amazon_Card";
 
 export default function Amazon_CardTab(){
+    let styles = {
+        display:"flex",
+    }
     return(
-        <div>
+
+        <div style={styles}>
             <Amazon_Card title="Logitech MX Master" idx={0} />
             <Amazon_Card title= "Apple Pencil (2nd gen)" idx={1}/>
             <Amazon_Card title= "Zebronics Zeb Transformer" idx={2}/>

@@ -11,7 +11,7 @@ function App(){
     {/* <MsgBox userName= "Vishal" textColor= "pink"/>
     <MsgBox userName= "Harsh" textColor= "aquamarine"/>
     <ProductTab/> */}
-
+    <h1>Block-Buster Deals | Shop Now</h1>
     <Amazon_CardTab/>
   </>
 }

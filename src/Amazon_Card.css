@@ -1,8 +1,10 @@
 .Amazon_Card{
-    border: 5px solid whitesmoke;
+    border: 2px solid whitesmoke;
     border-radius: 20px;  
-    margin-bottom: 15px;
-    padding: 0 15px;
+    margin: 15px;
+    /* padding: 0 15px 0 15px ; */
     background-color: rgb(204, 211, 141);
     color: black;
+    /* height: 200px; */
+    /* width: 300px; */
 }
