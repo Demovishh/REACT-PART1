@@ -20,13 +20,17 @@ import "./Product.css"
 
 
 function Product({title,price,features}){
-    
-    return <div className="Product">
+
+    let styles = { backgroundColor : price > 30000 ? "yellow" : ""};
+    return <div className="Product" style={styles}>
 
         <h2>Product: {title}</h2>
         <h4>Price: {price}</h4>
+
+        {price > 30000 ? <p>"5% Discount"</p> : ""}
+
         <p>{features.map( (option) => <li> {option}</li>)}</p>
    </div>
 }
 
-export default Product;
+export default Product; 

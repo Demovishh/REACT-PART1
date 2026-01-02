@@ -17,11 +17,11 @@ import Product from "./Product.jsx"
 
 
 function ProductTab(){
-  let options=["fast","durable","reliable"];
+  let options= ["fast","durable","reliable"];
     return <>
-    <Product title="pen" price="10rs" features={options}/>
-    <Product title="laptop" price="50000rs" features={options}/>
-    <Product title="phone" price="20000rs" features={options}/>
+    <Product title="pen" price="10" features={options}/>
+    <Product title="laptop" price="50000" features={options}/>
+    <Product title="phone" price="20000" features={options}/>
   </>
 }
 
